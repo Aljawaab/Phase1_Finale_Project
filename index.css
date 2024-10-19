@@ -47,3 +47,14 @@
     display: flex;
     justify-content: center;
 }
+
+#form-div tr{
+    display: flex;
+    flex-direction: row;
+    max-width: 1100;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
