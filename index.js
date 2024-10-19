@@ -1,5 +1,35 @@
+document.addEventListener("DOMContentLoaded",() => {
+    const baseUrl = "https://project-books.onrender.com/books"
+
+    const handleClick = (book) => {
+        const bookDetailDiv = document.getElementById("detail-div")
+          
+        const imagedetail = document.createElement("img")
+
+        //filling the form
+        const titleInput = document.getElementById("new-book-title")
+        const authorInput = document.getElementById("new-book-author")
+        
 
 
+       // populating the elements
+       imagedetail.src = book.image
+       imagedetail.alt = book.booktitle
+       
+       titleInput.value = book.booktitle
+       authorInput.value = book.author
+
+
+       bookDetailDiv.innerHTML = ''
+
+
+      //appending the image to book
+      bookDetailDiv.appendChild(imagedetail)
+      
+
+      
+
+    }
 
 
 
@@ -56,3 +86,13 @@ const displayBook = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+})
