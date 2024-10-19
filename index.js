@@ -118,17 +118,4 @@ const handleFormSubmit = (event) => {
 
   main();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 })
