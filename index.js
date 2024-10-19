@@ -107,6 +107,17 @@ const handleFormSubmit = (event) => {
     .then(data => 'Book saved:', data)
   };
 
+  // Attach form submit event listener
+  const form = document.getElementById("create-book-form");
+  form.addEventListener("submit", handleFormSubmit);
+
+  // Main function to display books on page load
+  const main = () => {
+      displayBook();
+  };
+
+  main();
+
 
 
 
