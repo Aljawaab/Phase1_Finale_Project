@@ -14,7 +14,7 @@ A web application designed for book enthusiasts to manage their personal library
 Ensure that your device of choice has a browser installed.
 Click the link provided below to view the site.
 
-https://dennis-kiboi.github.io/pixelart/
+ https://aljawaab.github.io/Phase1_Finale_Project/
 
 ## Features
 - **View Available Books**: A list of books from the library is displayed with book covers. Clicking on a book cover shows its details.
