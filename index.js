@@ -94,6 +94,19 @@ const handleFormSubmit = (event) => {
     saveBookToJS({title: titleCell.textContent, author: author.textContent})
 };
 
+ //save book to db.json
+ const saveBookToJS = (book) => {
+    fetch("https://project-books.onrender.com/savedbooks", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(book)
+    })
+    .then(response => response.json())
+    .then(data => 'Book saved:', data)
+  };
+
 
 
 
