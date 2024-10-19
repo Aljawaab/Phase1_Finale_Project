@@ -20,3 +20,12 @@
     color: white;
     text-align: center;
   }
+
+  #books-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
