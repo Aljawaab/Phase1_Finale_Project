@@ -1,3 +1,41 @@
 {
-    
+    "books":[
+      {
+        "booktitle": "SINS OF EMPIRE",
+        "image": "https://i.pinimg.com/564x/95/eb/db/95ebdba76e016884e528cbe42af1db10.jpg",
+        "id": "1",
+        "author": "Brian McClellan"
+      },
+      {
+        "booktitle": "AUTUMN'S TITHE",
+        "image":"https://i.pinimg.com/236x/48/28/fb/4828fbc0b4ea7420c7ccc4a46986b493.jpg",
+        "id":"2",
+        "author": "Hannah Parker"
+      },
+      {
+        "booktitle": "THE RAT KING",
+        "image": "https://i.pinimg.com/564x/1a/c0/18/1ac01803753cb464ff3dac8bd5b5b107.jpg",
+        "id":"3",
+        "author": "Jennifer M Waldrob"
+      },      
+      {
+        "booktitle": "PESTILENCE",
+        "image": "https://i.pinimg.com/474x/54/91/bc/5491bc8300017ae2c595012ba05d5f23.jpg",
+        "id":"4",
+        "author":"Laura Thalassa"
+      },
+      {
+        "booktitle": "SCORCHED EARTH",
+        "image":"https://i.pinimg.com/236x/15/c7/c6/15c7c6354facdc966766cbb8a3a5ddeb.jpg",
+        "id":"5",
+        "author":"Danielle L. Jensen"
+      },
+      {
+        "booktitle": "RIPPER FILE",
+        "image": "https://i.pinimg.com/236x/1b/99/9b/1b999b0f2ba63b9a5f2147e4fde6f3af.jpg",
+        "id":"6",
+        "author":"Lora Edwards"
+      }
+    ]
+
 }
