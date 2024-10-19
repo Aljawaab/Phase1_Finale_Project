@@ -34,7 +34,7 @@ https://dennis-kiboi.github.io/pixelart/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/books-app.git
+    git clone git@github.com:Aljawaab/Phase1_Finale_Project.git
     ```
 
 2. Open `index.html` in your browser to run the app locally.
