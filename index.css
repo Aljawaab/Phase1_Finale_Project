@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: darkgray;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1400px;
+  }
