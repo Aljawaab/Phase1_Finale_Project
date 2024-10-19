@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: darkgray;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1400px;
+  }
+
+  header {
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  #books-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+#books-div img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#detail-div img{
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+#body-div {
+    display: flex;
+    justify-content: center;
+}
+
+#form-div tr{
+    display: flex;
+    flex-direction: row;
+    max-width: 1100;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
