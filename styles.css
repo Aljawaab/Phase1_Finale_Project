@@ -51,7 +51,7 @@
 #form-div tr{
     display: flex;
     flex-direction: row;
-    max-width: 1100px;
+    max-width: 1000px;
 }
 
 tr {
