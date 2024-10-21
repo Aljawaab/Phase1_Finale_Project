@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded",() => {
         const titleInput = document.getElementById("new-book-title")
         const authorInput = document.getElementById("new-book-author")
         
-
-
        // populating the elements
        imagedetail.src = book.image
        imagedetail.alt = book.booktitle
@@ -21,7 +19,6 @@ document.addEventListener("DOMContentLoaded",() => {
 
 
        bookDetailDiv.innerHTML = ''
-
 
       //appending the image to book
       bookDetailDiv.appendChild(imagedetail)
@@ -38,9 +35,6 @@ document.addEventListener("DOMContentLoaded",() => {
             img.alt = book.titlename;
             img.addEventListener('click', () => {       
                 handleClick(book);
-            
-            
-      
             });
             booksDiv.appendChild(img)
             console.log(booksDiv)
